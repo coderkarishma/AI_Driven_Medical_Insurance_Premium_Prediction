@@ -88,7 +88,7 @@ with col1:
 with col2:
     st.subheader("Quick Details")
     st.write(f"**Age:** {age} years")
-    st.write(f"**Sex:** {'Male' if gender == 0 else 'Female'}")
+    st.write(f"Sex:{gender}")
     st.write(f"**BMI:** {bmi}")
     st.write(f"**Number of Children:** {children}")
     st.write(f"**Smoker:** {'Yes' if smoker else 'No'}")
